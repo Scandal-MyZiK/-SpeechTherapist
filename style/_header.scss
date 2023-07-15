@@ -1,6 +1,58 @@
 .header{
-    padding: 30px 0 300px;
+    padding: 30px 0 110px;
     background-color: #EAF5F5;
+    position: relative;
+    &__inner{
+        position: relative;
+    }
+    &__bg-img{
+        position: absolute;
+        z-index: 0;
+        right: 0;
+        top: 0;
+    }
+    &__left-triangles{
+        position: absolute;
+        z-index: 0;
+        left: -18%;
+        top: 17%;
+    }
+    &__right-triangles{
+        position: absolute;
+        z-index: 0;
+        bottom: 0%;
+        right: -18%;
+    }
+    &__left-squares{
+        position: absolute;
+        z-index: 0;
+        top: 41%;
+        left: -12%;
+    }
+    &__right-squares{
+        position: absolute;
+        z-index: 0;
+        top: 52%;
+        right: -11%;
+    }
+    &__yellow-figure{
+        position: absolute;
+        z-index: 0;
+        top: 50%;
+        left: 53%;
+    }
+    &__white-figure{
+        position: absolute;
+        z-index: 0;
+        right: -18%;
+        top: 15%;
+    }
+    &__snowflake{
+        position: absolute;
+        z-index: 0;
+        bottom: 20%;
+        left: 44%;
+    }
     &__top{
         display: flex;
         align-items: center;
@@ -18,6 +70,7 @@
         border-radius: 32px;
         background-color: #04181B;
         padding: 16px 24px;
+        z-index: 0;
     }
     &__center{
         display: flex;
@@ -55,6 +108,7 @@
         display: block;
         margin-right: -162px;
         margin-top: -130px;
+        z-index: 0;
     }
 }
 

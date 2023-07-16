@@ -1,0 +1,71 @@
+.individual-program{
+    &__title{
+        color: #04181B;
+        font-family: Gilroy;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        margin-bottom: 56px;
+    }
+    &__title-blue{
+        color: #46A6AF;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 64px;
+    }
+    &__inner{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 24px;
+    }
+    &__left-traingles{
+        position: absolute;
+        left: -18%;
+        top: 20%;
+    }
+    &__right-traingles{
+        position: absolute;
+        bottom: 25%;
+        right: -18%;
+    }
+    &__snowflake{
+        position: absolute;
+        right: -11%;
+        top: 19%;
+    }
+    &__yellow-figure{
+        position: absolute;
+        bottom: 29%;
+        left: -13%;
+    }
+    &__block{
+        max-width: 688px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        background-color: #FFF;
+        filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.05));
+        border-radius: 30px;
+    }
+    &__img{
+        max-width: 688px;
+    }
+    &__info{
+        padding: 0 48px 84px 32px;
+    }
+    &__desc{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}

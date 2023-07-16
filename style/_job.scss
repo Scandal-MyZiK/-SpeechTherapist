@@ -1,0 +1,181 @@
+.job{
+    margin-top: -110px;
+    padding: 0 0 88px;
+    &__container{
+        background-color: #F2F9F9;
+        border-radius: 32px;
+        padding: 192px 0 128px;
+    }
+    &__title{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 64px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: center;
+        gap: 72px;
+        margin-top: 110px;
+        flex-wrap: wrap;
+    }
+    &__block{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 33px;
+        max-width: 263px;
+        position: relative;
+        &--bottom{
+            margin-top: 113px;
+        }
+        &--bottom4{
+            margin-top: 138px;
+        }
+    }
+    &__img-snowflake{
+        position: absolute;
+        top: -42%;
+        right: -339%;
+    }
+    &__img-yellow{
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+    }
+    &__arrow-img1{
+        position: absolute;
+        left: 41%;
+        top: 7%;
+    }
+    &__arrow-img2{
+        position: absolute;
+        top: -21%;
+        left: 19%;
+        max-width: 287px;
+    }
+    &__arrow-img3{
+        position: absolute;
+        top: 2%;
+        left: 43%;
+        width: 200px;
+    }
+    &__arrow-img4{
+        position: absolute;
+        top: -42%;
+        left: 42%;
+    }
+    &__step{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        padding: 16px 24px;
+        border-radius: 32px;
+        &--pink1{
+            border: 2px solid #FF3D78;
+            background-color: #FF3D78;
+            &::after{
+                content: '01';
+                z-index: 0;
+                position: absolute;
+                top: -33px;
+                right: 60px;
+                display: block;
+                color: #FF3D78;
+                font-family: Gilroy;
+                font-size: 120px;
+                font-style: italic;
+                font-weight: 1000;
+                line-height: 120px;
+                opacity: 0.05000000074505806;
+            }
+        }
+        &--blue2{
+            background-color: #46A6AF;
+            border: 2px solid #46A6AF;
+            &::after{
+                content: '02';
+                z-index: 0;
+                position: absolute;
+                top: -33px;
+                right: 60px;
+                display: block;
+                color: #46A6AF;
+                text-align: right;
+                font-family: Gilroy;
+                font-size: 120px;
+                font-style: italic;
+                font-weight: 1000;
+                line-height: 120px;
+                opacity: 0.05000000074505806;
+            }
+        }
+        &--yellow3{
+            background-color: #FEC52D;
+            border: 2px solid #FEC52D;
+            &::after{
+                content: '03';
+                z-index: 0;
+                position: absolute;
+                top: -33px;
+                right: 60px;
+                display: block;
+                color: #FF3D78;
+                font-family: Gilroy;
+                font-size: 120px;
+                font-style: italic;
+                font-weight: 1000;
+                line-height: 120px;
+                opacity: 0.05000000074505806;
+            }
+        }
+        &--pink4{
+            border: 2px solid #FF3D78;
+            background-color: #FF3D78;
+            &::after{
+                content: '04';
+                z-index: 0;
+                position: absolute;
+                top: -33px;
+                right: 60px;
+                display: block;
+                color: #FF3D78;
+                font-family: Gilroy;
+                font-size: 120px;
+                font-style: italic;
+                font-weight: 1000;
+                line-height: 120px;
+                opacity: 0.05000000074505806;
+            }
+        }
+        &--blue5{
+            background-color: #46A6AF;
+            border: 2px solid #46A6AF;
+            &::after{
+                content: '05';
+                z-index: 0;
+                position: absolute;
+                top: -33px;
+                right: 60px;
+                display: block;
+                color: #46A6AF;
+                text-align: right;
+                font-family: Gilroy;
+                font-size: 120px;
+                font-style: italic;
+                font-weight: 1000;
+                line-height: 120px;
+                opacity: 0.05000000074505806;
+            }
+        }
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        &--black{
+            font-style: normal;
+            font-weight: 700;
+        }
+    }
+}

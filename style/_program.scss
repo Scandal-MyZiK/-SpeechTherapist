@@ -1,0 +1,98 @@
+.program{
+    padding: 110px 0 78px;
+    &__inner{
+
+    }
+    &__title{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 64px;
+        margin-bottom: 16px;
+    }
+    &__subtitle{
+        color: #56A7B2;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 48px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    &__left{
+        max-width: 688px;
+        width: 90%;
+        padding: 50px 40px 60px;
+        filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.05));
+        background: conic-gradient(from 132deg at 67.37% 16.85%, #75C0CA 0deg, #77C2CD 88.23616862297058deg, #7ECBD6 360deg), #56A7B2;
+        color: #FFF;
+        border-radius: 30px;
+    }
+    &__img-left{
+        max-width: 75px;
+    }
+    &__subject{
+        &--white{
+            color: #FFF;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 32px;
+            margin: 26px 0 16px;
+        }
+        &--blue{
+            color: #46A6AF;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 32px;
+        }
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__right{
+        max-width: 688px;
+        width: 90%;
+        padding: 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 32px;
+        filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.05));
+        border-radius: 30px;
+    }
+    &__right-block{
+        max-width: 559px;
+    }
+    &__img-right{
+        max-width: 33px;
+        object-fit: cover;
+    }
+    &__desc{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        margin: 16px 0;
+    }
+    &__list{
+        list-style-type: dist;
+        padding-left: 30px;
+    }
+    &__item{
+        color: rgba(32, 14, 50, 0.80);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+        list-style-type: disc;
+    }
+    &__item-black{
+        color: #04181B;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
